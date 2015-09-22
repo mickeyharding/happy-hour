@@ -1,0 +1,50 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: lawngreen;
+}
+
+ #mickey {
+    text-align: center;
+     font-size: larger;
+     color: darkblue;
+     font-family: fantasy;
+
+}
+
+ #blurb {
+     text-align: center;
+     font-family: fantasy;
+     color: darkmagenta;
+     font-size: x-large;
+ }
+
+.demo {
+    border:2px groove #01157A;
+    border-collapse:collapse;
+    padding:5px;
+}
+.demo th {
+    border:2px groove #01157A;
+    padding:5px;
+    background:#ACE7F0;
+}
+.demo td {
+    border:2px groove #01157A;
+    padding:5px;
+}
+
+table {
+    align-items: center;
+}
